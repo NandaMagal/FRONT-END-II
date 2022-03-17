@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>meu primeiro formulário</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="" href="css/style.css">
+
+    <body onload="alertaOnLoad()">
+        <h1>Formulários I</h1>
+
+        <div id=" logo ">
+            <img src="/imagens/kasa.jpg ">
+        </div>
+
+        <form id="botoes " action="/cadastrar cliente " name="Cadastro de Clientes>
+        <fieldset form=" cadastro de clientes ">
+            <legend> DADOS DO USUÁRIO/CLIENTE </legend>
+
+            <div>
+                <p id="corTexto " onmouseover="alteraCor1() " onmouseout="alteraCor2() ">
+            </p>
+            <label for=" nome ">Nome:</label>
+            <input type="text " name="nome " id="nome " placeholder="Insira seu primeiro nome ">
+            </div>
+
+            <div>
+                <label for="sobrenome ">Sobrenome:</label>
+                <input id="nomes " type="text " name="sobrenome " id="sobrenome " placeholder="Insira seu sobrenome ">
+            </div>
+
+            <div>
+                <label for="email ">Email:</label>
+                <input type="email " name="email " id="email " placeholder="Insira o email ">
+            </div>
+
+            <div>
+                <label for="pwd ">Senha:</label>
+                <input type="password " name="pwd " id="pwd " placeholder="Insira a senha ">
+            </div>
+
+            <div>
+                <label for="idade ">Idade:</label>
+                <input type="number " name="idade " id="idade " placeholder="Insira a idade ">
+            </div>
+
+            </fieldset>
+
+            <fieldset form="Cadastro Cliente Novo ">
+                <legend>Inscrição</legend>
+
+                <div>
+                    <label for=" Sexo ">Sexo: </label>
+                    <select name="Sexo " id="Sexo ">
+                        <option value="1 ">Masculino</option>
+                        <option value="2 ">Feminino</option>
+                        <option value="3 ">Cis</option>
+                        <option value="4 ">Transgenero</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="minibio ">Minibio de apresentação: </label>
+                    <textarea name=" Sugestões " id="minibio " cols="50 " rows="5 " placeholder="Insira a minibio "></textarea>
+                </div>
+            </fieldset>
+
+            <div class="buttons-div ">
+                <button type=" reset " onclick="limpar() " ">Limpar</button>
+            <button type=" submit ">Concluir</button>
+            </div>
+        </form>
+        <script src="./scripts/script.js "></script>
+    </body>
+    < /head>
+
+        < /html>

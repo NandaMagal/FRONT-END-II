@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+h1 {
+    margin: 35px;
+    color: rgb(62, 235, 39);
+    text-align: center;
+}
+
+.fundo {
+    margin: 100px;
+    border: 1px violet solid;
+    padding: 20px;
+    image-rendering: auto;
+    background-size: cover;
+    background-image: url(favicon.png);
+    background-size: cover;
+    background: #883030;
+    margin-left: 200px;
+    margin-right: 200px;
+    max-width: 100%;
+    height: auto height: 200px;
+    background-size: contain;
+    border: 2px solid darkgray;
+    color: #000;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+#logo {
+    margin-right: 100px;
+    border-top-left-radius: 200px violet solid;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+fieldset {
+    margin: 30px;
+    border: 4px rgb(177, 130, 238) solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+legend {
+    color: blueviolet;
+    font-size: 20px;
+    padding: 10px;
+}
+
+div {
+    margin: 20px;
+}
+
+button {
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(229, 225, 233);
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 20px;
+    margin: auto
+}
+
+.buttons-div {
+    text-align: center;
+    /*float: right; /* os botões escorregam para a direita*/
+}

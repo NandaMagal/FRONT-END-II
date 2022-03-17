@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="alertaOnLoad()">
+    <form action="" onsubmit="form()">
+        <div>
+            <p id="textColor" onmouseover="textOver()" onmouseout="textOut()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nem</p>
+        </div>
+        <div>
+            <p id="nomeKeyFunctionValue"></p>
+            <p id="contador"></p>
+            <label for="nome" >Nome</label>
+            <input type="text" name="nome" id="nome" onkeyup="inputKey()">
+        </div>
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha">
+        </div>
+        <button type="submit" id="formButton">Login</button>
+        <button type="reset">Reset</button>
+    </form>
+    <script src="js/script.js"></script>
+</body>
+</html>
